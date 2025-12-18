@@ -1,0 +1,780 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PathCare Labs | Precision Diagnostics</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <a href="#" class="logo">
+                <div class="logo-icon">
+                    <svg viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <circle cx="20" cy="20" r="18" stroke="currentColor" stroke-width="2"/>
+                        <path d="M20 8V32M12 20H28" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"/>
+                        <circle cx="20" cy="20" r="6" fill="currentColor" opacity="0.3"/>
+                    </svg>
+                </div>
+                <span>PathCare<span class="logo-accent">Labs</span></span>
+            </a>
+            <ul class="nav-links">
+                <li><a href="#home" class="active">Home</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#tests">Tests</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <a href="#book" class="btn btn-primary nav-btn">Book Test</a>
+            <button class="mobile-menu-btn" aria-label="Toggle menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-bg">
+            <div class="hero-gradient"></div>
+            <div class="hero-pattern"></div>
+        </div>
+        <div class="hero-container">
+            <div class="hero-content">
+                <div class="hero-badge">
+                    <span class="badge-dot"></span>
+                    NABL Accredited Laboratory
+                </div>
+                <h1 class="hero-title">
+                    Precision <span class="text-gradient">Diagnostics</span><br>
+                    for Better Health
+                </h1>
+                <p class="hero-text">
+                    Experience world-class pathology services with accurate results, 
+                    quick turnaround, and compassionate care. Your health journey 
+                    begins with trusted diagnostics.
+                </p>
+                <div class="hero-actions">
+                    <a href="#book" class="btn btn-primary btn-large">
+                        <span>Book a Test</span>
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M5 12h14M12 5l7 7-7 7"/>
+                        </svg>
+                    </a>
+                    <a href="#services" class="btn btn-outline btn-large">View Services</a>
+                </div>
+                <div class="hero-stats">
+                    <div class="stat-item">
+                        <span class="stat-number" data-count="15">0</span><span class="stat-suffix">+</span>
+                        <span class="stat-label">Years Experience</span>
+                    </div>
+                    <div class="stat-divider"></div>
+                    <div class="stat-item">
+                        <span class="stat-number" data-count="500">0</span><span class="stat-suffix">+</span>
+                        <span class="stat-label">Tests Available</span>
+                    </div>
+                    <div class="stat-divider"></div>
+                    <div class="stat-item">
+                        <span class="stat-number" data-count="50000">0</span><span class="stat-suffix">+</span>
+                        <span class="stat-label">Happy Patients</span>
+                    </div>
+                </div>
+            </div>
+            <div class="hero-visual">
+                <div class="hero-card">
+                    <div class="card-glow"></div>
+                    <div class="microscope-illustration">
+                        <svg viewBox="0 0 200 200" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <circle cx="100" cy="100" r="80" stroke="var(--accent)" stroke-width="1" opacity="0.3"/>
+                            <circle cx="100" cy="100" r="60" stroke="var(--accent)" stroke-width="1" opacity="0.2"/>
+                            <circle cx="100" cy="100" r="40" stroke="var(--accent)" stroke-width="1" opacity="0.1"/>
+                            <!-- DNA Helix -->
+                            <path d="M70 40 Q100 60 130 40 Q100 80 70 60 Q100 100 130 80 Q100 120 70 100 Q100 140 130 120 Q100 160 70 140" 
+                                  stroke="var(--primary)" stroke-width="3" fill="none" class="dna-strand"/>
+                            <circle cx="70" cy="40" r="5" fill="var(--accent)"/>
+                            <circle cx="130" cy="40" r="5" fill="var(--primary)"/>
+                            <circle cx="70" cy="60" r="5" fill="var(--primary)"/>
+                            <circle cx="130" cy="80" r="5" fill="var(--accent)"/>
+                            <circle cx="70" cy="100" r="5" fill="var(--accent)"/>
+                            <circle cx="130" cy="120" r="5" fill="var(--primary)"/>
+                            <circle cx="70" cy="140" r="5" fill="var(--primary)"/>
+                        </svg>
+                    </div>
+                    <div class="floating-elements">
+                        <div class="float-element float-1">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M22 12h-4l-3 9L9 3l-3 9H2"/>
+                            </svg>
+                        </div>
+                        <div class="float-element float-2">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <circle cx="12" cy="12" r="10"/>
+                                <path d="M12 6v6l4 2"/>
+                            </svg>
+                        </div>
+                        <div class="float-element float-3">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M9 12l2 2 4-4"/>
+                                <circle cx="12" cy="12" r="10"/>
+                            </svg>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <span>Scroll to explore</span>
+            <div class="scroll-line"></div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="services">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">Our Services</span>
+                <h2 class="section-title">Comprehensive <span class="text-gradient">Diagnostic</span> Services</h2>
+                <p class="section-subtitle">From routine check-ups to specialized tests, we offer a complete range of pathology services with accuracy you can trust.</p>
+            </div>
+            <div class="services-grid">
+                <div class="service-card" data-aos="fade-up">
+                    <div class="service-icon">
+                        <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <circle cx="24" cy="24" r="20" stroke="currentColor" stroke-width="2"/>
+                            <path d="M24 14v20M14 24h20" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"/>
+                        </svg>
+                    </div>
+                    <h3>Blood Tests</h3>
+                    <p>Complete blood count, lipid profile, diabetes screening, liver & kidney function tests.</p>
+                    <a href="#" class="service-link">
+                        Learn more
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M5 12h14M12 5l7 7-7 7"/>
+                        </svg>
+                    </a>
+                </div>
+                <div class="service-card" data-aos="fade-up" data-aos-delay="100">
+                    <div class="service-icon">
+                        <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <rect x="10" y="8" width="28" height="32" rx="3" stroke="currentColor" stroke-width="2"/>
+                            <path d="M16 16h16M16 24h16M16 32h10" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+                        </svg>
+                    </div>
+                    <h3>Health Packages</h3>
+                    <p>Customized health check-up packages for individuals, families, and corporate wellness programs.</p>
+                    <a href="#" class="service-link">
+                        Learn more
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M5 12h14M12 5l7 7-7 7"/>
+                        </svg>
+                    </a>
+                </div>
+                <div class="service-card" data-aos="fade-up" data-aos-delay="200">
+                    <div class="service-icon">
+                        <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <circle cx="24" cy="20" r="12" stroke="currentColor" stroke-width="2"/>
+                            <path d="M24 32v8M18 40h12" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+                            <circle cx="24" cy="20" r="4" fill="currentColor" opacity="0.3"/>
+                        </svg>
+                    </div>
+                    <h3>Microbiology</h3>
+                    <p>Culture & sensitivity testing, infection detection, and antimicrobial susceptibility analysis.</p>
+                    <a href="#" class="service-link">
+                        Learn more
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M5 12h14M12 5l7 7-7 7"/>
+                        </svg>
+                    </a>
+                </div>
+                <div class="service-card" data-aos="fade-up" data-aos-delay="300">
+                    <div class="service-icon">
+                        <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M24 8L8 16v16l16 8 16-8V16L24 8z" stroke="currentColor" stroke-width="2"/>
+                            <path d="M24 24v16M8 16l16 8 16-8" stroke="currentColor" stroke-width="2"/>
+                        </svg>
+                    </div>
+                    <h3>Histopathology</h3>
+                    <p>Tissue examination, biopsy analysis, and cancer screening with expert pathologist review.</p>
+                    <a href="#" class="service-link">
+                        Learn more
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M5 12h14M12 5l7 7-7 7"/>
+                        </svg>
+                    </a>
+                </div>
+                <div class="service-card" data-aos="fade-up" data-aos-delay="400">
+                    <div class="service-icon">
+                        <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M24 4C13 4 4 13 4 24s9 20 20 20 20-9 20-20S35 4 24 4z" stroke="currentColor" stroke-width="2"/>
+                            <path d="M16 24c0-4.4 3.6-8 8-8s8 3.6 8 8-3.6 8-8 8" stroke="currentColor" stroke-width="2"/>
+                            <circle cx="24" cy="24" r="3" fill="currentColor"/>
+                        </svg>
+                    </div>
+                    <h3>Molecular Diagnostics</h3>
+                    <p>PCR testing, genetic analysis, and advanced molecular techniques for precise diagnosis.</p>
+                    <a href="#" class="service-link">
+                        Learn more
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M5 12h14M12 5l7 7-7 7"/>
+                        </svg>
+                    </a>
+                </div>
+                <div class="service-card" data-aos="fade-up" data-aos-delay="500">
+                    <div class="service-icon">
+                        <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <rect x="8" y="12" width="32" height="24" rx="3" stroke="currentColor" stroke-width="2"/>
+                            <path d="M8 20h32" stroke="currentColor" stroke-width="2"/>
+                            <circle cx="16" cy="28" r="3" stroke="currentColor" stroke-width="2"/>
+                            <path d="M24 26h10M24 30h6" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+                        </svg>
+                    </div>
+                    <h3>Home Collection</h3>
+                    <p>Convenient sample collection at your doorstep by trained phlebotomists at your preferred time.</p>
+                    <a href="#" class="service-link">
+                        Learn more
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M5 12h14M12 5l7 7-7 7"/>
+                        </svg>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Popular Tests Section -->
+    <section id="tests" class="tests">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">Popular Tests</span>
+                <h2 class="section-title">Most Booked <span class="text-gradient">Health Tests</span></h2>
+                <p class="section-subtitle">Quick, accurate results for your essential health screenings</p>
+            </div>
+            <div class="tests-grid">
+                <div class="test-card">
+                    <div class="test-badge">Popular</div>
+                    <h4>Complete Blood Count (CBC)</h4>
+                    <p>Comprehensive analysis of blood cells and components</p>
+                    <div class="test-meta">
+                        <span class="test-time">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <circle cx="12" cy="12" r="10"/>
+                                <path d="M12 6v6l4 2"/>
+                            </svg>
+                            6-8 hours
+                        </span>
+                        <span class="test-price">₹399</span>
+                    </div>
+                    <button class="btn btn-test">Book Now</button>
+                </div>
+                <div class="test-card">
+                    <div class="test-badge">Essential</div>
+                    <h4>Lipid Profile</h4>
+                    <p>Cholesterol and triglycerides measurement</p>
+                    <div class="test-meta">
+                        <span class="test-time">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <circle cx="12" cy="12" r="10"/>
+                                <path d="M12 6v6l4 2"/>
+                            </svg>
+                            12-24 hours
+                        </span>
+                        <span class="test-price">₹549</span>
+                    </div>
+                    <button class="btn btn-test">Book Now</button>
+                </div>
+                <div class="test-card featured">
+                    <div class="test-badge">Best Value</div>
+                    <h4>Full Body Checkup</h4>
+                    <p>70+ parameters including liver, kidney, thyroid & more</p>
+                    <div class="test-meta">
+                        <span class="test-time">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <circle cx="12" cy="12" r="10"/>
+                                <path d="M12 6v6l4 2"/>
+                            </svg>
+                            24-48 hours
+                        </span>
+                        <span class="test-price">₹1,999</span>
+                    </div>
+                    <button class="btn btn-test">Book Now</button>
+                </div>
+                <div class="test-card">
+                    <h4>Thyroid Profile (T3, T4, TSH)</h4>
+                    <p>Complete thyroid function assessment</p>
+                    <div class="test-meta">
+                        <span class="test-time">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <circle cx="12" cy="12" r="10"/>
+                                <path d="M12 6v6l4 2"/>
+                            </svg>
+                            12-24 hours
+                        </span>
+                        <span class="test-price">₹649</span>
+                    </div>
+                    <button class="btn btn-test">Book Now</button>
+                </div>
+                <div class="test-card">
+                    <h4>HbA1c (Diabetes)</h4>
+                    <p>3-month average blood sugar level</p>
+                    <div class="test-meta">
+                        <span class="test-time">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <circle cx="12" cy="12" r="10"/>
+                                <path d="M12 6v6l4 2"/>
+                            </svg>
+                            6-8 hours
+                        </span>
+                        <span class="test-price">₹449</span>
+                    </div>
+                    <button class="btn btn-test">Book Now</button>
+                </div>
+                <div class="test-card">
+                    <h4>Vitamin D & B12</h4>
+                    <p>Essential vitamin deficiency screening</p>
+                    <div class="test-meta">
+                        <span class="test-time">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <circle cx="12" cy="12" r="10"/>
+                                <path d="M12 6v6l4 2"/>
+                            </svg>
+                            24 hours
+                        </span>
+                        <span class="test-price">₹1,199</span>
+                    </div>
+                    <button class="btn btn-test">Book Now</button>
+                </div>
+            </div>
+            <div class="tests-cta">
+                <a href="#" class="btn btn-outline btn-large">View All Tests</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Why Choose Us -->
+    <section class="why-us">
+        <div class="container">
+            <div class="why-us-grid">
+                <div class="why-us-content">
+                    <span class="section-tag">Why Choose Us</span>
+                    <h2 class="section-title">Trusted by <span class="text-gradient">50,000+</span> Patients</h2>
+                    <p class="section-text">We combine cutting-edge technology with experienced pathologists to deliver results you can rely on. Our commitment to accuracy and patient care sets us apart.</p>
+                    <ul class="features-list">
+                        <li>
+                            <div class="feature-icon">
+                                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <path d="M9 12l2 2 4-4"/>
+                                    <circle cx="12" cy="12" r="10"/>
+                                </svg>
+                            </div>
+                            <div>
+                                <h4>NABL Accredited</h4>
+                                <p>Internationally recognized quality standards</p>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="feature-icon">
+                                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <circle cx="12" cy="12" r="10"/>
+                                    <path d="M12 6v6l4 2"/>
+                                </svg>
+                            </div>
+                            <div>
+                                <h4>Quick Turnaround</h4>
+                                <p>Most reports within 24 hours</p>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="feature-icon">
+                                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <path d="M12 2L2 7l10 5 10-5-10-5z"/>
+                                    <path d="M2 17l10 5 10-5M2 12l10 5 10-5"/>
+                                </svg>
+                            </div>
+                            <div>
+                                <h4>Advanced Equipment</h4>
+                                <p>State-of-the-art diagnostic technology</p>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="feature-icon">
+                                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/>
+                                    <circle cx="9" cy="7" r="4"/>
+                                    <path d="M23 21v-2a4 4 0 0 0-3-3.87M16 3.13a4 4 0 0 1 0 7.75"/>
+                                </svg>
+                            </div>
+                            <div>
+                                <h4>Expert Pathologists</h4>
+                                <p>Team of experienced specialists</p>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+                <div class="why-us-visual">
+                    <div class="achievement-cards">
+                        <div class="achievement-card">
+                            <div class="achievement-icon">
+                                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/>
+                                </svg>
+                            </div>
+                            <span class="achievement-number">4.9</span>
+                            <span class="achievement-label">Patient Rating</span>
+                        </div>
+                        <div class="achievement-card">
+                            <div class="achievement-icon">
+                                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/>
+                                    <polyline points="22 4 12 14.01 9 11.01"/>
+                                </svg>
+                            </div>
+                            <span class="achievement-number">99.9%</span>
+                            <span class="achievement-label">Accuracy Rate</span>
+                        </div>
+                        <div class="achievement-card">
+                            <div class="achievement-icon">
+                                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <rect x="3" y="4" width="18" height="18" rx="2" ry="2"/>
+                                    <line x1="16" y1="2" x2="16" y2="6"/>
+                                    <line x1="8" y1="2" x2="8" y2="6"/>
+                                    <line x1="3" y1="10" x2="21" y2="10"/>
+                                </svg>
+                            </div>
+                            <span class="achievement-number">365</span>
+                            <span class="achievement-label">Days Open</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <div class="about-grid">
+                <div class="about-image">
+                    <div class="image-frame">
+                        <div class="lab-illustration">
+                            <svg viewBox="0 0 400 300" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <!-- Lab Background -->
+                                <rect x="20" y="20" width="360" height="260" rx="10" fill="var(--bg-dark)" stroke="var(--primary)" stroke-width="2"/>
+                                <!-- Shelves -->
+                                <line x1="40" y1="80" x2="180" y2="80" stroke="var(--border)" stroke-width="2"/>
+                                <line x1="40" y1="140" x2="180" y2="140" stroke="var(--border)" stroke-width="2"/>
+                                <!-- Bottles/Beakers -->
+                                <rect x="50" y="50" width="20" height="30" rx="2" fill="var(--primary)" opacity="0.3"/>
+                                <rect x="80" y="55" width="15" height="25" rx="2" fill="var(--accent)" opacity="0.3"/>
+                                <rect x="110" y="48" width="25" height="32" rx="2" fill="var(--primary)" opacity="0.5"/>
+                                <rect x="150" y="55" width="18" height="25" rx="2" fill="var(--accent)" opacity="0.4"/>
+                                <!-- Microscope -->
+                                <g transform="translate(250, 60)">
+                                    <rect x="20" y="80" width="60" height="10" rx="2" fill="var(--text-muted)"/>
+                                    <rect x="35" y="30" width="30" height="50" rx="3" fill="var(--primary)"/>
+                                    <circle cx="50" cy="20" r="15" stroke="var(--accent)" stroke-width="3" fill="none"/>
+                                    <rect x="45" y="35" width="10" height="15" fill="var(--text-muted)"/>
+                                </g>
+                                <!-- Test Tubes -->
+                                <g transform="translate(60, 160)">
+                                    <rect x="0" y="0" width="8" height="40" rx="4" fill="var(--accent)" opacity="0.6"/>
+                                    <rect x="15" y="5" width="8" height="35" rx="4" fill="var(--primary)" opacity="0.6"/>
+                                    <rect x="30" y="2" width="8" height="38" rx="4" fill="var(--accent)" opacity="0.4"/>
+                                    <rect x="45" y="8" width="8" height="32" rx="4" fill="var(--primary)" opacity="0.5"/>
+                                </g>
+                                <!-- Computer/Report -->
+                                <g transform="translate(220, 160)">
+                                    <rect x="0" y="20" width="120" height="80" rx="5" fill="var(--bg-card)" stroke="var(--border)" stroke-width="2"/>
+                                    <rect x="10" y="30" width="100" height="50" rx="2" fill="var(--bg-dark)"/>
+                                    <line x1="20" y1="45" x2="100" y2="45" stroke="var(--primary)" stroke-width="2"/>
+                                    <line x1="20" y1="55" x2="80" y2="55" stroke="var(--text-muted)" stroke-width="2"/>
+                                    <line x1="20" y1="65" x2="90" y2="65" stroke="var(--text-muted)" stroke-width="2"/>
+                                    <rect x="40" y="100" width="40" height="5" rx="2" fill="var(--text-muted)"/>
+                                </g>
+                            </svg>
+                        </div>
+                    </div>
+                    <div class="experience-badge">
+                        <span class="exp-number">15+</span>
+                        <span class="exp-text">Years of Excellence</span>
+                    </div>
+                </div>
+                <div class="about-content">
+                    <span class="section-tag">About Us</span>
+                    <h2 class="section-title">Your Health, Our <span class="text-gradient">Priority</span></h2>
+                    <p class="about-text">Founded in 2009, PathCare Labs has been at the forefront of diagnostic excellence. Our state-of-the-art facility houses the latest diagnostic equipment, operated by a team of highly qualified pathologists and technicians.</p>
+                    <p class="about-text">We believe that accurate diagnostics are the foundation of effective healthcare. That's why we maintain the highest standards of quality control and continuously invest in advanced technology and training.</p>
+                    <div class="about-features">
+                        <div class="about-feature">
+                            <span class="feature-number">500+</span>
+                            <span class="feature-label">Tests Available</span>
+                        </div>
+                        <div class="about-feature">
+                            <span class="feature-number">25+</span>
+                            <span class="feature-label">Expert Doctors</span>
+                        </div>
+                        <div class="about-feature">
+                            <span class="feature-number">10</span>
+                            <span class="feature-label">Collection Centers</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Booking Section -->
+    <section id="book" class="booking">
+        <div class="container">
+            <div class="booking-wrapper">
+                <div class="booking-info">
+                    <span class="section-tag">Book a Test</span>
+                    <h2 class="section-title">Schedule Your <span class="text-gradient">Health Checkup</span></h2>
+                    <p class="booking-text">Book your test online and get samples collected from the comfort of your home. Our trained phlebotomists ensure a safe and hygienic collection process.</p>
+                    <div class="booking-benefits">
+                        <div class="benefit">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M9 12l2 2 4-4"/>
+                                <circle cx="12" cy="12" r="10"/>
+                            </svg>
+                            <span>Free home collection</span>
+                        </div>
+                        <div class="benefit">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M9 12l2 2 4-4"/>
+                                <circle cx="12" cy="12" r="10"/>
+                            </svg>
+                            <span>Online reports access</span>
+                        </div>
+                        <div class="benefit">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M9 12l2 2 4-4"/>
+                                <circle cx="12" cy="12" r="10"/>
+                            </svg>
+                            <span>Expert consultation</span>
+                        </div>
+                        <div class="benefit">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M9 12l2 2 4-4"/>
+                                <circle cx="12" cy="12" r="10"/>
+                            </svg>
+                            <span>Secure & confidential</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="booking-form-container">
+                    <form class="booking-form" id="bookingForm">
+                        <div class="form-group">
+                            <label for="name">Full Name</label>
+                            <input type="text" id="name" name="name" placeholder="Enter your full name" required>
+                        </div>
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="phone">Phone Number</label>
+                                <input type="tel" id="phone" name="phone" placeholder="+91 XXXXX XXXXX" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="email">Email Address</label>
+                                <input type="email" id="email" name="email" placeholder="your@email.com" required>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="test">Select Test/Package</label>
+                            <select id="test" name="test" required>
+                                <option value="">Choose a test or package</option>
+                                <option value="cbc">Complete Blood Count (CBC) - ₹399</option>
+                                <option value="lipid">Lipid Profile - ₹549</option>
+                                <option value="thyroid">Thyroid Profile - ₹649</option>
+                                <option value="diabetes">HbA1c (Diabetes) - ₹449</option>
+                                <option value="vitamin">Vitamin D & B12 - ₹1,199</option>
+                                <option value="full">Full Body Checkup - ₹1,999</option>
+                            </select>
+                        </div>
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="date">Preferred Date</label>
+                                <input type="date" id="date" name="date" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="time">Preferred Time</label>
+                                <select id="time" name="time" required>
+                                    <option value="">Select time slot</option>
+                                    <option value="7-9">7:00 AM - 9:00 AM</option>
+                                    <option value="9-11">9:00 AM - 11:00 AM</option>
+                                    <option value="11-1">11:00 AM - 1:00 PM</option>
+                                    <option value="4-6">4:00 PM - 6:00 PM</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="address">Collection Address</label>
+                            <textarea id="address" name="address" placeholder="Enter your complete address for home collection" rows="3" required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary btn-large btn-full">
+                            <span>Book Appointment</span>
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M5 12h14M12 5l7 7-7 7"/>
+                            </svg>
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">Contact Us</span>
+                <h2 class="section-title">Get in <span class="text-gradient">Touch</span></h2>
+                <p class="section-subtitle">Have questions? We're here to help you 24/7</p>
+            </div>
+            <div class="contact-grid">
+                <div class="contact-card">
+                    <div class="contact-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/>
+                            <circle cx="12" cy="10" r="3"/>
+                        </svg>
+                    </div>
+                    <h4>Visit Us</h4>
+                    <p>123 Health Avenue, Medical District<br>New Delhi - 110001</p>
+                </div>
+                <div class="contact-card">
+                    <div class="contact-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/>
+                        </svg>
+                    </div>
+                    <h4>Call Us</h4>
+                    <p>+91 1800-123-4567<br>+91 98765-43210</p>
+                </div>
+                <div class="contact-card">
+                    <div class="contact-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/>
+                            <polyline points="22,6 12,13 2,6"/>
+                        </svg>
+                    </div>
+                    <h4>Email Us</h4>
+                    <p>info@pathcarelabs.com<br>support@pathcarelabs.com</p>
+                </div>
+                <div class="contact-card">
+                    <div class="contact-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <circle cx="12" cy="12" r="10"/>
+                            <polyline points="12 6 12 12 16 14"/>
+                        </svg>
+                    </div>
+                    <h4>Working Hours</h4>
+                    <p>Mon - Sat: 7:00 AM - 9:00 PM<br>Sunday: 8:00 AM - 2:00 PM</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-brand">
+                    <a href="#" class="logo">
+                        <div class="logo-icon">
+                            <svg viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <circle cx="20" cy="20" r="18" stroke="currentColor" stroke-width="2"/>
+                                <path d="M20 8V32M12 20H28" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"/>
+                                <circle cx="20" cy="20" r="6" fill="currentColor" opacity="0.3"/>
+                            </svg>
+                        </div>
+                        <span>PathCare<span class="logo-accent">Labs</span></span>
+                    </a>
+                    <p>Your trusted partner for accurate diagnostics and better health outcomes. NABL accredited laboratory with 15+ years of excellence.</p>
+                    <div class="social-links">
+                        <a href="#" aria-label="Facebook">
+                            <svg viewBox="0 0 24 24" fill="currentColor">
+                                <path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"/>
+                            </svg>
+                        </a>
+                        <a href="#" aria-label="Twitter">
+                            <svg viewBox="0 0 24 24" fill="currentColor">
+                                <path d="M23 3a10.9 10.9 0 0 1-3.14 1.53 4.48 4.48 0 0 0-7.86 3v1A10.66 10.66 0 0 1 3 4s-4 9 5 13a11.64 11.64 0 0 1-7 2c9 5 20 0 20-11.5a4.5 4.5 0 0 0-.08-.83A7.72 7.72 0 0 0 23 3z"/>
+                            </svg>
+                        </a>
+                        <a href="#" aria-label="Instagram">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <rect x="2" y="2" width="20" height="20" rx="5" ry="5"/>
+                                <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/>
+                                <line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/>
+                            </svg>
+                        </a>
+                        <a href="#" aria-label="LinkedIn">
+                            <svg viewBox="0 0 24 24" fill="currentColor">
+                                <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6zM2 9h4v12H2z"/>
+                                <circle cx="4" cy="4" r="2"/>
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+                <div class="footer-links">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#services">Services</a></li>
+                        <li><a href="#tests">Tests</a></li>
+                        <li><a href="#about">About Us</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-links">
+                    <h4>Services</h4>
+                    <ul>
+                        <li><a href="#">Blood Tests</a></li>
+                        <li><a href="#">Health Packages</a></li>
+                        <li><a href="#">Home Collection</a></li>
+                        <li><a href="#">Corporate Wellness</a></li>
+                        <li><a href="#">Online Reports</a></li>
+                    </ul>
+                </div>
+                <div class="footer-links">
+                    <h4>Support</h4>
+                    <ul>
+                        <li><a href="#">FAQs</a></li>
+                        <li><a href="#">Test Preparations</a></li>
+                        <li><a href="#">Download Reports</a></li>
+                        <li><a href="#">Privacy Policy</a></li>
+                        <li><a href="#">Terms of Service</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 PathCare Labs. All rights reserved.</p>
+                <p>Made with care for your health</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Success Modal -->
+    <div class="modal" id="successModal">
+        <div class="modal-content">
+            <div class="modal-icon">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <path d="M9 12l2 2 4-4"/>
+                    <circle cx="12" cy="12" r="10"/>
+                </svg>
+            </div>
+            <h3>Booking Confirmed!</h3>
+            <p>Thank you for booking with PathCare Labs. We'll contact you shortly to confirm your appointment.</p>
+            <button class="btn btn-primary" onclick="closeModal()">Close</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
